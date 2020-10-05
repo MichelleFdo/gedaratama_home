@@ -353,6 +353,27 @@ template {
   display: none !important;
 }
 
+/**/
+.marquee
+{
+  animation-direction: reverse;
+  width: 100%;
+  background: rgb(160, 160, 163);
+  position: relative;
+  animation: mymove 25s infinite;
+  font-size: 15px;
+  color: #002752;
+}
+
+@keyframes mymove {
+  from {left: 100%;}
+  to {left: 0%;}
+}
+  
+
+/**/
+
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
